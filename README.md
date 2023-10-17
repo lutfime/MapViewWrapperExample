@@ -2,7 +2,7 @@
 
 When developing iOS apps that require maps, you often face the choice between Apple Maps and Google Maps. 
 
-To address this challenge, you can establish a protocol (abstraction) that any map framework can conform to.
+To address this challenge, you can establish a protocol (abstraction) that any map framework can conform to. Rather than interacting with specific map implementations, any class requiring map functionality interacts with this protocol, introducing a layer of flexibility to your code.
 
 Map view implementation in this project
 1. Apple Map View
